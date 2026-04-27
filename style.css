@@ -1,0 +1,99 @@
+/* add your CSS here */
+
+/* ---- FONTS (provided for you) ---- */
+
+@font-face {
+  font-family: 'Serpentine';
+  src: url('https://raw.githubusercontent.com/hhassan1230/lab-01-html-magazine-cover-start/master/fonts/serpentine-bold-oblique.eot');
+  src: url('https://raw.githubusercontent.com/hhassan1230/lab-01-html-magazine-cover-start/master/fonts/serpentine-bold-oblique.eot?#iefix') format('embedded-opentype'),
+       url('https://raw.githubusercontent.com/hhassan1230/lab-01-html-magazine-cover-start/master/fonts/serpentine-bold-oblique.woff') format('woff'),
+       url('https://raw.githubusercontent.com/hhassan1230/lab-01-html-magazine-cover-start/master/fonts/osaka-mono.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OsakaMono';
+  src: url('https://raw.githubusercontent.com/hhassan1230/lab-01-html-magazine-cover-start/master/fonts/osaka-mono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ---- BASE STYLES (provided for you) ---- */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* ---- YOUR STYLES BELOW ---- */
+
+body {}
+
+.container {}
+
+/*////////// COVER //////////*/
+
+#magazine-cover {}
+
+/* Hint: use position: absolute on all headings/paragraphs inside the cover
+   so you can place them exactly where you want using top, left, right values */
+#magazine-cover h1,
+#magazine-cover h2,
+#magazine-cover h3,
+#magazine-cover p {}
+
+/* Style both h1 elements — font, size, color, and a skew transform */
+h1 {}
+
+/* h2 and h3 share the OsakaMono font */
+h2, h3, p {}
+
+/* First h1: "Mass" — position it near the top-left of the cover */
+#magazine-cover h1:nth-child(1) {}
+
+/* Second h1: "appeal" — position it just below the first */
+#magazine-cover h1:nth-child(2) {}
+
+/* All h2 headings — uppercase, font size */
+h2 {}
+
+/* Cover h2: "KENDRICK LAMAR" — position on the right side of the cover */
+#magazine-cover h2 {}
+
+/* Decorative black background bar behind the cover h2 using a ::before pseudo-element */
+#magazine-cover h2::before {}
+
+/* All h3 headings — uppercase, lighter font weight */
+h3 {}
+
+/* Cover h3 #1: "THE PEN IS MIGHTIER" — positioned below the h2 */
+#magazine-cover h3:nth-child(4) {}
+
+/* Decorative bar behind h3 #1 */
+#magazine-cover h3:nth-child(4)::before {}
+
+/* Cover h3 #2: "THAN THE SWORD" — positioned below h3 #1 */
+#magazine-cover h3:nth-child(5) {}
+
+/* Decorative bar behind h3 #2 */
+#magazine-cover h3:nth-child(5)::before {}
+
+/* Cover paragraph (contributor names) — positioned at the bottom-right of the cover */
+#magazine-cover p {}
+
+/*////////// ARTICLE //////////*/
+
+#magazine-article {}
+
+#magazine-article h2 {}
+
+#magazine-article h3 {}
+
+#magazine-article p {}
